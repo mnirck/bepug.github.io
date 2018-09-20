@@ -1,0 +1,21 @@
+queue:
+  name: Hosted Ubuntu 1604
+steps:
+- task: UseRubyVersion@0
+  displayName: 'Use Ruby >= 2.4'
+
+
+- powershell: 'gem install bundler' 
+  displayName: 'install bundler'
+
+- powershell: 'bundle install' 
+  displayName: 'install bundle dependencies'
+
+- powershell: 'bundle exec jekyll build -d $(Build.ArtifactStagingDirectory)' 
+  displayName: 'build jekyll site'
+
+- task: PublishBuildArtifacts@1
+  displayName: 'publish site to artifacts'
+  inputs:
+    ArtifactName: www
+
