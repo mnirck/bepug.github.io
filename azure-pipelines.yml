@@ -5,13 +5,13 @@ steps:
   displayName: 'Use Ruby >= 2.4'
 
 
-- powershell: 'gem install bundler' 
+- powershell: 'gem install bundler'
   displayName: 'install bundler'
 
-- powershell: 'bundle install' 
+- powershell: 'bundle install'
   displayName: 'install bundle dependencies'
 
-- powershell: 'bundle exec jekyll build -d $(Build.ArtifactStagingDirectory)' 
+- powershell: 'bundle exec jekyll build --future -d $(Build.ArtifactStagingDirectory)'
   displayName: 'build jekyll site'
 
 - task: PublishBuildArtifacts@1
