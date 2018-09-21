@@ -213,7 +213,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/;year/:month/:day/:title/
+permalink: /:categories/:year/:month/:day/:title/
 paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -221,6 +221,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
 plugins:
+  - jekyll-archive
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -253,15 +254,15 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
+jekyll-archives:
+   enabled:
+     - categories
 #     - tags
-#   layouts:
-#     category: archive-taxonomy
+   layouts:
+     category: archive-taxonomy
 #     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
+   permalinks:
+     category: /categories/:name/
 #     tag: /tags/:name/
 
 
@@ -281,15 +282,24 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: false
       comments: # true
-      share: true
+      share: false
       related: false
+      sidebar:
+      - title: ""
+        image: /assets/images/bepuglogo200.png
+        image_alt: "image"
+
   # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
+      sidebar:
+      - title: ""
+        image: /assets/images/bepuglogo200.png
+        image_alt: "image"

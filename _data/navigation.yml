@@ -1,6 +1,6 @@
 main:
   - title: "Events"
-    url: /year-archive/
+    url: /events
   - title: "About"
     url: /about
   - title: "Github"
