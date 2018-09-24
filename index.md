@@ -26,12 +26,11 @@ If you have any questions, just reach out to any of the [organizers](/about#Orga
 - Infrastructure-as-Code: VSTS, Azure and the glue of PowerShell by [Jeff Wouters](https://twitter.com/jeffwouters)
 - Azure Cloud Shell and SHiPS by [Steven Taylor](https://twitter.com/Torch02)
 - Stick to the full potential of PowerShell by [Christof Van Geendertaelen](https://twitter.com/cvangeendert)
-- Function ctrl-c {}, [Merlijn Van Waeyenberghe](https://twitter.com/merlin_with_a_j)
+- Function ctrl-c {} by [Merlijn Van Waeyenberghe](https://twitter.com/merlin_with_a_j)
 - Too late for a complex ARM template by [Ivo Haagen](https://twitter.com/ivohaagen89)
 
-Hosted at [Xylos](https://xylos.be)
-[Register here!](https://bepug.eventbrite.com){: .btn .btn--info}
-
+Hosted at [Xylos](https://xylos.be) <br />
+[Register here!](https://bepug.eventbrite.com){: .btn btn--large .btn--info}
 {% endcapture %}
 
 <div class="notice--primary">
@@ -44,9 +43,9 @@ Hosted at [Xylos](https://xylos.be)
 <table cellspacing="2" cellpadding="2" style="border: 0px;">
 <tbody>
 <tr>
-<td style="border: 0px"><input id="mce-EMAIL" class="required email" name="EMAIL" type="text" placeholder="Your e-mail"></td>
-<td style="border: 0px"><input id="mce-FNAME" class="required" name="FNAME" type="text" placeholder="Your firstname"></td>
-<td style="border: 0px"><input id="mce-LNAME" class="required" name="LNAME" type="text" placeholder="Your lastname"></td>
+<td style="border: 0px"><input id="mce-EMAIL" name="EMAIL" type="text" placeholder="Your e-mail"></td>
+<td style="border: 0px"><input id="mce-FNAME" name="FNAME" type="text" placeholder="Your firstname"></td>
+<td style="border: 0px"><input id="mce-LNAME" name="LNAME" type="text" placeholder="Your lastname"></td>
 </tr>
 <tr style="border: 0px">
 <td colspan="2" style="border: 0px"><p>You hearby confirm that your email may be used to inform you of all future events</p></td>
