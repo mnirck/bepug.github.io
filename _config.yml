@@ -126,27 +126,21 @@ author:
       # url: "https://instagram.com/"
 
 # Site Footer
+#see https://fontawesome.com for icon
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: https://twitter.com/bepowershell
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: https://www.facebook.com/bepowershell/
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
-
+      url: https://github.com/bepug
+    - label: "linkedIn"
+      icon: fab fa-fw fa-linkedin-in
+      url: https://www.linkedin.com/company/bepug/
 
 # Reading Files
 include:
@@ -304,4 +298,3 @@ defaults:
         image: /assets/images/bepuglogo200.png
         image_alt: "image"
   # _collections
-  
