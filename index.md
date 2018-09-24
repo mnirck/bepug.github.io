@@ -23,13 +23,13 @@ If you have any questions, just reach out to any of the [organizers](/about#Orga
 {% capture notice-text %}
 **2018-09-27 - September meetup**
 
-* Infrastructure-as-Code: VSTS, Azure and the glue of PowerShell, [Jeff Wouters](https://twitter.com/jeffwouters)
-* Azure Cloud Shell and SHiPS, Steven Taylor
-* Stick to the full potential of PowerShell, Christof Van Geendertaelen
-* Function ctrl-c {}, Merlijn Van Waeyenberghe
-* Too late for a complex ARM template by Ivo Haagen
+- Infrastructure-as-Code: VSTS, Azure and the glue of PowerShell by [Jeff Wouters](https://twitter.com/jeffwouters)
+- Azure Cloud Shell and SHiPS by [Steven Taylor](https://twitter.com/Torch02)
+- Stick to the full potential of PowerShell by [Christof Van Geendertaelen](https://twitter.com/cvangeendert)
+- Function ctrl-c {}, [Merlijn Van Waeyenberghe](https://twitter.com/merlin_with_a_j)
+- Too late for a complex ARM template by [Ivo Haagen](https://twitter.com/ivohaagen89)
 
-Hosted at Xylos
+Hosted at [Xylos](https://xylos.be)
 [Register here!](https://bepug.eventbrite.com){: .btn .btn--info}
 
 {% endcapture %}
