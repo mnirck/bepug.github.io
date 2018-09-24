@@ -11,7 +11,7 @@ steps:
 - powershell: 'bundle install'
   displayName: 'install bundle dependencies'
 
-- powershell: 'bundle exec JEKYLL_ENV=production jekyll build --future -d $(Build.ArtifactStagingDirectory)'
+- powershell: 'bundle exec jekyll build --future -d $(Build.ArtifactStagingDirectory)'
   displayName: 'build jekyll site'
 
 - task: PublishBuildArtifacts@1
